@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{11238B07-B746-31D8-B621-2CD5892F0E72}</ProjectGuid>
+    <ProjectGuid>{6D0123DF-61A1-37AD-A0BA-AB6673F6F0AC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -138,10 +138,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -175,10 +175,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -188,7 +188,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -211,10 +211,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\include;C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\src;C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -227,7 +227,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Aeris/Code/Repository/BattleCity/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/Build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,11 +236,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Aeris/Code/Repository/BattleCity/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/Build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,11 +249,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Aeris/Code/Repository/BattleCity/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/Build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -262,11 +262,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Aeris/Code/Repository/BattleCity/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/Build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,7 +275,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aeris\Code\Repository\BattleCity\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aeris\Code\Repository\BattleCity\Build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aeris\Code\Repository\BattleCity\build\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -315,8 +315,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Aeris\Code\Repository\BattleCity\Build\ZERO_CHECK.vcxproj">
-      <Project>{739EC3A0-7050-3706-A814-2467C5F18A00}</Project>
+    <ProjectReference Include="C:\Users\Aeris\Code\Repository\BattleCity\build\ZERO_CHECK.vcxproj">
+      <Project>{4761F9E6-C31F-3C95-8224-AD94D498E54C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

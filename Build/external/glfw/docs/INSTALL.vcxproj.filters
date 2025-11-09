@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Aeris\Code\Repository\BattleCity\Build\CMakeFiles\5941d9befc680a67be082194cfdf66fc\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Aeris\Code\Repository\BattleCity\build\CMakeFiles\09b046d2c1da67b0d3fdeb0c64c5c64f\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4477F0DE-7B81-31A4-91C9-9C250B403F48}</UniqueIdentifier>
+      <UniqueIdentifier>{D815E5F2-106F-3860-B714-85DBE0F945ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

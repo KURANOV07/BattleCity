@@ -1,6 +1,6 @@
 ^C:\USERS\AERIS\CODE\REPOSITORY\BATTLECITY\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/Build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aeris/Code/Repository/BattleCity -BC:/Users/Aeris/Code/Repository/BattleCity/build --check-stamp-file C:/Users/Aeris/Code/Repository/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
