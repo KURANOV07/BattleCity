@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Aeris/Code/Repository/BattleCity/Build/cmake_install.cmake",
+		"C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/cmake_install.cmake",
+		"C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/src/cmake_install.cmake",
+		"C:/Users/Aeris/Code/Repository/BattleCity/Build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
